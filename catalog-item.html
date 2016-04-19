@@ -8,7 +8,7 @@
     <header class="main-header">
       <div class="container">
         <nav class="main-navigation">
-          <ul>
+          <ul class="navigation-header">
             <li>
               <a href="#"><img src="img/menu-logo.png" width="120" height="20" alt="Барбершоп «Бородинский»"></a>
             </li>
@@ -22,7 +22,7 @@
               <a href="#">Прайс-лист</a>
             </li>
             <li>
-              <a href="#">Магазин</a>
+              <a class="navigation-active" href="#">Магазин</a>
             </li>
             <li>
               <a href="#">Контакты</a>
@@ -37,7 +37,7 @@
     <main class="container">
       <header class="content-header">
         <h1 class="item-title">Набор для путешествий «Baxter of California»</h1>
-        <ul class="breadcrumbs">
+        <ul class="diamond-list breadcrumbs">
           <li>
             <a href="#">Главная</a>
           </li>
@@ -48,22 +48,31 @@
             <a href="#">Средства для ухода</a>
           </li>
           <li>
-            <span>Набор для путешествий «Baxter of California»</span>
+            <a href="#">Набор для путешествий «Baxter of California»</a>
           </li>
         </ul>
       </header>
-      <div class="catalog-content-left">
-        <img class="large-pic" src="http://placehold.it/460x498" width="460" height="498" alt="Большой набор для ухода за бородой во время поездок" />
-        <img class="small-pic" src="http://placehold.it/140x149" width="140" height="149" alt="Набор для путешествий, вид сбоку" />
-        <img class="small-pic" src="http://placehold.it/140x149" width="140" height="149" alt="Набор для путешествий, сумка" />
-        <img class="small-pic" src="http://placehold.it/140x149" width="140" height="149" alt="Коробка и все что в ней" />
+      <div class="block-preview content-left">
+        <div class="block-img block-large-img">
+          <img class="large-img" src="http://placehold.it/460x498" width="460" height="498" alt="Большой набор для ухода за бородой во время поездок" />
+        </div>
+        <div class="block-img block-small-img">
+          <img class="small-img" src="http://placehold.it/140x149" width="140" height="149" alt="Набор для путешествий, вид сбоку" />
+        </div>
+        <div class="block-img block-small-img">
+          <img class="small-img" src="http://placehold.it/140x149" width="140" height="149" alt="Набор для путешествий, сумка" />
+        </div>
+        <div class="block-img block-small-img">
+          <img class="small-img" src="http://placehold.it/140x149" width="140" height="149" alt="Коробка и все что в ней" />
+        </div>
+
       </div>
-      <div class="catalog-content-right">
+      <div class="block-description content-right">
         <section class="item-description">
-          <header class="item-description-header">
-            <span class="stock">Есть в наличии</span>
-            <span class="art">Артикул: dexter-ae</span>
-          </header>
+          <div class="item-description-header">
+            <span class="item-stock">Есть в наличии</span>
+            <span class="item-art">Артикул: dexter-ae</span>
+          </div>
           <p>
             Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.
           </p>
@@ -72,7 +81,7 @@
         </section>
         <section class="item-specification">
           <h2 class="item-specification-title">В набор входят</h2>
-          <ul class="list-zip">
+          <ul class="diamond-list compressed-list">
             <li>Средство для умывания (50 мл)</li>
             <li>Увлажняющий крем (50 мл)</li>
             <li>Крем для бритья (50 мл)</li>
