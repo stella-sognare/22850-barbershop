@@ -1,6 +1,7 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Владимир Великий](https://up.htmlacademy.ru/htmlcss/13/user/22850).
+* Наставник: [Антон Конев](https://htmlacademy.ru/profile/id206748).
 
 ---
 
